@@ -1,0 +1,53 @@
+*{
+    font-family:Poppins;
+    font-size: 18px;
+    text-align: center;
+    justify-content: center;
+}
+.box-container{
+    background-color:azure;
+    width: 100%;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.8);
+    margin:20px;
+}
+.box-container h1,p{
+    color:crimson;
+    text-align: justify;
+    font-weight: bold;
+    padding: 50px;
+    margin:auto;
+    transition: all 0.2s ease;
+}
+.wrapper{
+    display:block;
+    align-items: center;
+    width:100%;
+    border:none;
+    background-color:aliceblue;
+
+}
+#string{
+    width:100%;
+    border:1px solid #ccc;
+    background-color: #f0f0f0;
+    color:navy;
+    border-radius: 20px;
+}
+button{
+    width:60%;
+    border:1px solid #fff;
+    background-color: cornflowerblue;
+    color:darkblue;
+    text-align: center;
+    cursor: pointer;
+    border-radius:10px;
+}
+button:hover{
+background-color: dodgerblue;
+color:white;
+}
+button :visited{
+    background-color: aqua;
+}
